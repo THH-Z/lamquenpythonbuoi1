@@ -25,8 +25,13 @@ while True:
         
         #b. tinh trung binh cong cac so am, trung binh cac so duong
         am_numbers = [n for n in numbers if n < 0]
-        duong_numbers = [n for n in numbers if n > 0]   
-        
+        tongso_am = sum(am_numbers)
+        count_am = len(am_numbers)
+        print("Trung binh cong cac so am la:", tongso_am / count_am if count_am > 0 else "Khong co so am")
+        duong_numbers = [n for n in numbers if n > 0]  
+        tongso_duong = sum(duong_numbers)
+        count_duong = len(duong_numbers)
+        print("Trung binh cong cac so duong la:", tongso_duong / count_duong if count_duong > 0 else "Khong co so duong")
         #c. so long nhat va so nho nhat trong list
         if numbers:
             max_num = max(numbers)
