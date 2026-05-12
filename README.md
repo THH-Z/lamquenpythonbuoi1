@@ -1,2 +1,2 @@
 # lamquenpythonbuoi1
-test
+những ngày đầu làm quen với ngôn ngữ mới python
